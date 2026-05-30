@@ -9,5 +9,5 @@ Our toy implementation is not meant to be secure or optimized for efficiency. We
 ## How to run
 The rlwe_he_scheme_updated.py file contains the algorithms of the HE scheme. You can run main.py to play with computing on encrypted data. Have fun! :smile:
 
-My spin:
+## My spin:
 I used this updated scheme to create a mock version of a client-server model that usees fully homomorphic encryption. All of the coding is found on one file and is divided into the sections that either the client or server program would perform. However, the encrypt.py is fully operational. The program practices serializing and deserializing polynomials in both plaintext and ciphertext. It also asks whether you want to add or multiply the encrypted data and if you want to decrypt the result in the end. 
